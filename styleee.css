@@ -1,0 +1,251 @@
+body
+{
+    color: white;
+    
+    background-color: rgb(1, 11, 32);
+}
+.lien1
+{
+    justify-content: space-around;
+    display: flex;
+    margin-left: 60%;
+}
+
+.lien1 a
+{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    margin-top: -60px;
+}
+
+.ol
+{
+    color: rgba(225, 225, 225, 0.685);
+    width: auto;
+    height: auto;
+  
+}
+
+.entete1 img
+{
+    height: 200px;
+    width: 200px;
+    padding-top: 20px;
+}
+
+b
+{
+    color: white;
+    padding-bottom: 10px;
+}
+
+.container1 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-top: 20px;
+}
+.container2
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.input
+{
+    color: white;
+    background-color: rgb(89, 209, 224);
+    border-radius: 20px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.container3
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.image5 img
+{
+    width: 250px;
+    height: 250px;
+}
+
+.image6 img
+{
+    width: 20px;
+    height: 20px;
+}
+
+.image6 a
+{
+    color: rgba(18, 220, 234, 0.701);
+}
+
+.container4
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.container4 img
+{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    border: 2px;
+    padding: 20px;
+}
+
+.essen1
+{
+    position: relative;
+    left: -550px;
+
+    top: 90px;
+    justify-content: space-around;
+}
+
+.essen2
+{
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    z-index: 5;
+    background: url(../challenge/image/bg-quotes.png);
+    background: no-repeat;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.image8
+{
+    background-color: rgb(2, 33, 61);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 40px;
+}
+
+.image9
+{
+    background-color: rgb(2, 33, 61);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 40px;
+}
+
+.image10
+{
+    background-color: rgb(2, 33, 61);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 40px;
+}
+
+.conter
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   padding-bottom: 30px;
+}
+    
+.container6
+{
+    background-color: rgba(35, 43, 56, 0.461);
+    margin-left: 40px;
+    border-radius: 10px;
+    
+}
+
+.container5
+{
+    background-color: rgb(1, 20, 62);
+    width: 60%;
+    height: auto;
+    padding-top: 50px;
+    padding: 20px auto;
+    position: relative;
+    top: -40px;
+    left: 200px;
+    border-radius: 10px;
+}
+
+.container7
+{
+    background-color: rgba(35, 43, 56, 0.461);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+.containe
+{
+    background-color: rgba(35, 43, 56, 0.461);
+}
+
+.logo1 img
+{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.inpu
+{
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    padding-left: 20px;
+}
+
+.con1 
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.con11
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and ( max-width: 300px) 
+{
+    .containe
+    {
+        position: relative;
+        display: flex;
+        left: 100px;
+    }
+    .container5
+    {
+        position: absolute;
+        display: flex;
+        left: 1000px;
+    }
+}
